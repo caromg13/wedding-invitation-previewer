@@ -1,0 +1,180 @@
+body, html {
+    background-color: #eee7e3;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .centerlogo {
+    padding: 0 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .topnav {
+    text-align: center;
+    width: 100%;
+    font-family: "Haboro Contrast";
+    text-decoration: none;
+    padding: 20px;
+  }
+
+  .topnav a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 2px;
+  }
+
+  .column-form {
+    float: left;
+    width: 50%;
+    padding: 10px 5px 20px 5px;
+}
+
+/* Clearfix (clear floats) */
+.row-form::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+
+  .formnav {
+    text-align: center;
+    width: 100%;
+    font-family: "Haboro Contrast";
+    text-decoration: none;
+    padding: 10px;
+  }
+
+
+  .formnav a{
+    font-size: 16px;
+    font-family: "Gotham Light";
+    color: #8aa896;
+    text-align: center; 
+    line-height: 23px;
+    margin: 0;
+    padding: 14px 30px;
+    }
+
+    .column-form label {
+      font-size: 16px;
+      font-family: "Gotham Light";
+      color: black;
+      text-align: left;
+      margin-bottom: 5px;
+      
+    }
+
+  h1 {
+    font-size: 30px;
+    font-family: "Haboro Contrast";
+    color: #8aa896;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-family: "Haboro Contrast";
+    color: #8aa896;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  h4 {
+    font-size: 14px;
+    font-family: "Gotham Book";
+    color: #8aa896;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 14px;
+    font-family: "Gotham Light";
+    color: black;
+    text-align: center; 
+    line-height: 20px;
+    margin-top: 2px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px 5px 20px 5px;
+}
+
+.column a {
+  font-size: 16px;
+  font-family: "Gotham Light";
+  color: #8aa896;
+  text-align: left; 
+  line-height: 23px;
+  margin: 0;
+  text-decoration: none;
+  border-width: thin;
+  border-color: #8aa896;
+  padding: 7px;
+  border-style: solid;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.column-footer {
+  float: left;
+  width: 33.33%;
+  padding: 10px; 
+  padding: 0 6px 40px 40px;
+}
+
+.column-footer p {
+  font-size: 12px;
+  font-family: "Gotham Light";
+  color: black;
+  text-align: left; 
+  line-height: 15px;
+  margin: 0;
+  }
+
+  .column-footer a{
+  font-size: 12px;
+  font-family: "Gotham Light";
+  color: black;
+  text-align: left; 
+  line-height: 23px;
+  margin: 0;
+  text-decoration: none;
+  }
+  
+  .border_right {
+    border-right: 1px solid #8aa896;
+    padding-right: 20px;
+  }
+
+  .border_top {
+    border-top: 1px solid black;
+    padding-top: 10px;
+  }
+
+
+
