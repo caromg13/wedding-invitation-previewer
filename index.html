@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-    <title>WeddingByDesign</title>
+    <title>Wedding By Design</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/cms0fym.css">
@@ -8,24 +8,22 @@
     <meta name="keywords" content="weddings, invitations, styling, stationary, design">
     <meta name="description" content="Offering a large range of DIY wedding stationary, solutions and ideas!">
     <script src="https://use.fontawesome.com/538726ceaf.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/cms0fym.css">
 </head>
+
+
 <body>
   
 
-    <div class="wrapper">
+<div class="wrapper">
 
 
-  <!--Header Starts-->
-  
-        <div style="
-    /* position: absolute; */
-    /* width: 100%; */
-">
+<!--Header Starts-->
+  <header>
     <div class="centerlogo">
             <img src="images/WeddingsByDesign_logo.png" class="WeddingsByDesign logo" alt="WeddingsByDesign logo" title="WeddingByDesign" style="
-    height: 40%;
-    width: 40%;
-">
+    height: 40%; width: 40%;">
+
 <div class="topnav">
         <nav>
             <a href="">ABOUT</a>
@@ -35,69 +33,60 @@
         </nav>
        </div>
 </div>
-</div>
-    
+
+</header>
     <!--Header Ends-->
+
+
 
     <!--Create Section Starts-->
     
-       <div id="create">
-         <div id="article"> <div class="article">
-        
+    <div id="create">
+
+       <div class="article">
             <h1>CREATE</h1>
             <p>Use the form below to create your wedding invitation.</p>
 
             <div class="formnav">
-            <a href="">FORMAL</a>
-            <a href="">SPRING</a>
-            <a href="#">ART DECO</a>
-        </div>
+            <a href onclick="changeTheme('formal')">FORMAL</a>
+            <a href onclick="changeTheme('spring')">SPRING</a>
+            <a href onclick="changeTheme('artDeco')">ART DECO</a>
+       </div>
         
-        </div>
+        
         <div class="row-form">
-        <div class="column-form">
 
-            <form>
+        <div class="column-form"> 
+
+        <form>
             
-         <br>
-         <label for="name1">NAME 1:</label>
-         <br>
-         <input type="text" id="name1" name="name1" value="">
-         <br><br><br>
-         <label for="name2">NAME 2:</label>
-         <br>
-         <input type="text" id="name2" name="name2" value="">
-         <br><br><br>
+        <br><br><br>
 
-         <label for="appt">TIME:</label>
-         <br>
-         <input type="time" id="appt" name="appt">
+        <input #NameTitle1 (type='text', placeholder='NAME 1:')><br><br><br>
+        <input #NameTitle2 (type='text', placeholder='NAME 2:')><br><br><br>
+        <input #Time (type='text', placeholder='TIME:')><br><br><br>
+        <input #Date (type='text', placeholder='DATE:')><br><br><br>
+        <input #Location (type='text', placeholder='LOCATION:')><br><br><br>
 
-         <br><br><br>
-         <label for="date">DATE:</label>
-         <br>
-         <input type="date" id="wedding" name="wedding">
-
-         <br><br><br>
-         <label for="location">LOCATION:</label>
-         <br>
-         <input type="text" id="location" name="location" value="">
-
+        <button type="submit">CREATE INVITE</button>
          
-            
            </form>
         </div>
 
-        <div class="column-form">
-         <img src="images/WeddingByDesign_themes-01.jpg" alt="Wedding Invite_Forma" title="Formal" style="width:100%">
-       
+        <div class="column-theme">
 
+        <div id = "theme-design" >
+         <img src="images/WeddingByDesign_themes-01.jpg" class = "theme-formal" alt="Wedding Invite_Formal" title="Formal" style="width:100%">
+         <img src="images/WeddingByDesign_themes-02.jpg" class = "theme-spring" alt="Wedding Invite_Spring" title="Spring" style="width:100%">
+         <img src="images/WeddingByDesign_themes-03.jpg" class = "theme-artdeco" alt="Wedding Invite_ArtDeco" title="ArtDeco" style="width:100%">
 
+        </div>
            </div>
     
             </div>
-          </div>
         </div>
+     </div>
+
     <!--Create Section Ends-->
     
 
@@ -179,7 +168,7 @@
 
 
         <script type="text/javascript" src="script.js"></script>
-
+    </div>
 </body>
 </html>
 
