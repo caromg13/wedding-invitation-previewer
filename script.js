@@ -1,37 +1,26 @@
 
 //Text Live Formal
 
-function liveTextFormal(formText, themeFormalLive) {
+function inviteTextLive(formText, liveText) {
     document.getElementById(formText).onkeyup = function() {
-    document.getElementById(themeFormalLive).textContent = this.value;
+    document.getElementById(liveText).textContent = this.value;
     };
 }
 
-liveTextFormal("formText","themeFormalLive");
+inviteTextLive("NameTitle1","NameTitle1Live");
+inviteTextLive("NameTitle2","NameTitle2Live");
+inviteTextLive("Time","TimeLive");
+inviteTextLive("Date","DateLive");
+inviteTextLive("Location","LocationLive");
   
 
 
 //Text Live Spring
 
-function liveTextSpring(formText, themeSpringLive) {
-    document.getElementById(formText).onkeyup = function() {
-    document.getElementById(themeSpringLive).textContent = this.value;
-    };
-}
-
-liveTextSpring("formText","themeSpringLive");
-
 
 
 //Text Live Art Deco
 
-function liveTextArtDeco(formText, themeArtDecoLive) {
-    document.getElementById(formText).onkeyup = function() {
-    document.getElementById(themeArtDecoLive).textContent = this.value;
-    };
-}
-
-liveTextArtDeco("formText","themeArtDecoLive");
 
 
 

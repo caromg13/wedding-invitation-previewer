@@ -54,44 +54,52 @@
 
        </div>
         </div>
-        
-        <div class="row-form">
 
+        <!--Column LHS - Form fields-->
+
+        <div class="row-form">
         <div id = "formText" div class="column-form">
 
         <form>
             
         <br><br><br>
 
-        <input #NameTitle1 (type='text', placeholder='NAME 1:')><br><br><br>
-        <input #NameTitle2 (type='text', placeholder='NAME 2:')><br><br><br>
-        <input #Time (type='text', placeholder='TIME:')><br><br><br>
-        <input #Date (type='text', placeholder='DATE:')><br><br><br>
-        <input #Location (type='text', placeholder='LOCATION:')><br><br><br>
+        <input id="NameTitle1"(type='text', placeholder='NAME 1:')><br><br><br>
+        <input id="NameTitle2"(type='text', placeholder='NAME 2:')><br><br><br>
+        <input id="Time"(type='text', placeholder='TIME:')><br><br><br>
+        <input id="Date"(type='text', placeholder='DATE:')><br><br><br>
+        <input id="Location"(type='text', placeholder='LOCATION:')><br><br><br>
 
         <button type="submit">CREATE INVITE</button>
          
-           </form>
-        </div>
+        </form>
+
+       </div>
+
+        <!--Column LHS - Form fields ends-->
 
 
+        <!--Column RHS - Column theme and live type-->
+       
         <div class="column-theme">
-
-       <div id = "theme-wrapper"> <div class="container">
-
-         <div class="theme-formal" id="themeFormal" alt="Wedding Invite_Formal" title="Formal"></div>
-
-            <div id="initials"></div>
-
-         </div>
-         <!--<div class="theme-spring" id="themeSpring" alt="Wedding Invite_Spring" title="Spring"></div>
-         <div class="theme-artdeco" id="themeArtDeco" alt="Wedding Invite_ArtDeco" title="ArtDeco"></div>-->
-
-        
-        
+            
+        <div class="theme-formal" id="themeFormal" alt="Wedding Invite_Formal" title="Formal">
+        <div class="formalTextLive"id="formalTextLive">
+        <div id="NameTitle1Live"(type='text')></div><br><br><br>
+        <div id="NameTitle2Live" (type='text')></div><br><br><br>
+        <div id="TimeLive" (type='text')></div><br><br><br>
+        <div id="DateLive" (type='text')></div><br><br><br>
+        <div id="LocationLive" (type='text')></div><br><br><br>
     </div>
+    
     </div>
+       
+ 
+     </div>
+   </div>
 </div>
+
+<!--Column RHS - Column theme and live type ends-->
 
     <!--Create Section Ends-->
     
