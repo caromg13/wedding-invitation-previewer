@@ -26,8 +26,8 @@
 
 <div class="topnav">
         <nav>
-            <a href="">ABOUT</a>
-            <a href="">CREATE</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CREATE</a>
             <a href="#">CONTACT</a>
 
         </nav>
@@ -43,20 +43,21 @@
     
     <div id="create">
 
-       <div class="article">
+       <div class="article" id = "themenav">
             <h1>CREATE</h1>
             <p>Use the form below to create your wedding invitation.</p>
 
             <div class="formnav">
-            <a href onclick="changeTheme('formal')">FORMAL</a>
-            <a href onclick="changeTheme('spring')">SPRING</a>
-            <a href onclick="changeTheme('artDeco')">ART DECO</a>
+            <a onclick="changeTheme('formal')" id="formal">FORMAL</a>
+            <a onclick="changeTheme('spring')" id="spring">SPRING</a>
+            <a onclick="changeTheme('artDeco')" id="artDeco">ART DECO</a>
+
        </div>
-        
+        </div>
         
         <div class="row-form">
 
-        <div class="column-form"> 
+        <div id = "formText" div class="column-form">
 
         <form>
             
@@ -73,19 +74,24 @@
            </form>
         </div>
 
+
         <div class="column-theme">
 
-        <div id = "theme-design" >
-         <img src="images/WeddingByDesign_themes-01.jpg" class = "theme-formal" alt="Wedding Invite_Formal" title="Formal" style="width:100%">
-         <img src="images/WeddingByDesign_themes-02.jpg" class = "theme-spring" alt="Wedding Invite_Spring" title="Spring" style="width:100%">
-         <img src="images/WeddingByDesign_themes-03.jpg" class = "theme-artdeco" alt="Wedding Invite_ArtDeco" title="ArtDeco" style="width:100%">
+       <div id = "theme-wrapper"> <div class="container">
 
-        </div>
-           </div>
-    
-            </div>
-        </div>
-     </div>
+         <div class="theme-formal" id="themeFormal" alt="Wedding Invite_Formal" title="Formal"></div>
+
+            <div id="initials"></div>
+
+         </div>
+         <!--<div class="theme-spring" id="themeSpring" alt="Wedding Invite_Spring" title="Spring"></div>
+         <div class="theme-artdeco" id="themeArtDeco" alt="Wedding Invite_ArtDeco" title="ArtDeco"></div>-->
+
+        
+        
+    </div>
+    </div>
+</div>
 
     <!--Create Section Ends-->
     
