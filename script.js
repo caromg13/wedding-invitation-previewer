@@ -9,8 +9,8 @@ function inviteTextLive(formText, liveText) {
 
 inviteTextLive("NameTitle1","NameTitle1Live");
 inviteTextLive("NameTitle2","NameTitle2Live");
-inviteTextLive("Time","TimeLive");
 inviteTextLive("Date","DateLive");
+inviteTextLive("Time","TimeLive");
 inviteTextLive("Location","LocationLive");
   
 
