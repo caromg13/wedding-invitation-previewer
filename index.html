@@ -28,9 +28,9 @@
 
 <div class="topnav">
         <nav>
-            <a href="#">ABOUT</a>
-            <a href="#">CREATE</a>
-            <a href="#">CONTACT</a>
+            <a href="#about">ABOUT</a>
+            <a href="#create">CREATE</a>
+            <a href="#footer">CONTACT</a>
 
         </nav>
        </div>
@@ -50,10 +50,9 @@
             <p>Use the form below to create your wedding invitation.</p>
 
             <div class="formnav">
-            <a onclick="changeTheme('formal')" id="formal">FORMAL</a>
-            <a onclick="changeTheme('spring')" id="spring">SPRING</a>
-            <a onclick="changeTheme('artDeco')" id="artDeco">ART DECO</a>
-
+            <a onclick="changeTheme('formal'); changeTextTheme('formalTextLive')" id="formal">FORMAL</a>
+            <a onclick="changeTheme('spring'); changeTextTheme('springTextLive')" id="spring">SPRING</a>
+            <a onclick="changeTheme('artDeco'); changeTextTheme('artDecoTextLive')" id="artDeco" id="artDeco">ART DECO</a>
        </div>
         </div>
 
@@ -63,6 +62,7 @@
         <div id = "formText" div class="column-form">
 
         <form>
+        
             
         <br><br><br>
 
@@ -70,7 +70,7 @@
         <input id="NameTitle2"(type='text', placeholder='NAME 2:')><br><br><br>
         <input id="Date"(type='text', placeholder='DATE:')><br><br><br>
         <input id="Time"(type='text', placeholder='TIME:')><br><br><br>
-        <input id="Location"(type='text', placeholder='LOCATION:')><br><br><br>
+        <input id="Location"(textarea='rows', type='text', placeholder='LOCATION:')><br><br><br>
 
         <button type="submit">CREATE INVITE</button>
          
@@ -92,6 +92,22 @@
         <h5 id="DateLive" style="color: white;"></h5><br><br>
         <h5 id="TimeLive" style="color: white;"></h5>
         <p id="LocationLive" style="color: white;"></p>
+        </div>
+
+        <div class="springTextLive"id="springTextLive">
+            <h5 id="NameTitle1Live" style="color: #e08069;"></h5><br><br>
+            <h5 id="NameTitle2Live" style="color: #e08069;"></h5><br><br><br><br>
+            <h5 id="DateLive" style="color: #e08069;"></h5><br><br>
+            <h5 id="TimeLive" style="color: #e08069;"></h5>
+            <p id="LocationLive" style="color: #e08069;"></p>
+        </div>
+
+        <div class="artDecoTextLive"id="artDecoTextLive">
+            <h5 id="NameTitle1Live" style="color: #009444;"></h5><br><br>
+            <h5 id="NameTitle2Live" style="color: #009444;"></h5><br><br><br><br>
+            <p id="DateLive" style="color: #d19c2a;"></p><br><br>
+            <p id="TimeLive" style="color: #d19c2a;"></p>
+            <p id="LocationLive" style="color: #d19c2a;"></p>
         </div>
     
     
@@ -124,7 +140,7 @@
           <p>Use our Theme Creator to create your own wedding theme across all
               of your design deliverables.</p>
               <br>              
-              <p><a href=""target="_blank">CREATE NOW</a></p>
+              <p><a href="#"target="_blank">CREATE NOW</a></p>
          </div>
 
          <div class="column">
@@ -133,7 +149,7 @@
           <p>Looking for tips on creating the perfect wedding day. Read our blog
               to find out how to nail your special day!</p>
               <br>
-              <p><a href=""target="_blank">LEARN MORE</a></p>
+              <p><a href="#"target="_blank">LEARN MORE</a></p>
 
 
             </div>

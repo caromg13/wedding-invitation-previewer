@@ -15,16 +15,43 @@ inviteTextLive("Location","LocationLive");
   
 
 
-//Text Live Spring
+//Theme font style change
+
+// function changeTextTheme(formalText, springText, artDecoText) {
+ //   document.getElementById(formalText).onclick = function() {
+ //   document.getElementById(springText).textStyle = this.value;
+ //   document.getElementById(artDecoText).textStyle = this.value;
+ //   };
+//}
+
+// changeTextTheme("formalTextLive", "springTextLive", "artDecoTextLive");
+
+////////////
+
+
+function changeTextTheme(param) {
+
+    let formalTextLive = document.getElementById(`formalTextLive`).value;
+
+    if (param == "formalTextLive") {
+        formalTextLive.style.font.color ='("formalTextLive")';
+
+    }
+
+     else if (param == "springTextLive") {
+        themeFormal.style.font.color ='("springTextLive")';
+    }
+
+    else if (param == "artDecoTextLive") {
+        themeFormal.style.font.color ='("artDecoTextLive")';
+     }
+
+}
 
 
 
-//Text Live Art Deco
 
-
-
-
-  
+ 
 //Theme background change
 
 
@@ -34,6 +61,7 @@ function changeTheme(param) {
 
     if (param == "formal") {
        themeFormal.style.backgroundImage = 'url("images/WeddingByDesign_themes-01.jpg")';
+
     }
 
      else if (param == "spring") {

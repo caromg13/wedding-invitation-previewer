@@ -38,6 +38,11 @@ body, html {
     font-size: 17px;
     letter-spacing: 2px;
   }
+
+  .topnav a:hover {
+    color: #8aa896;
+    transition: 0.7s;
+  }
   
 /* Header Ends */
 
@@ -72,6 +77,13 @@ body, html {
     font-family: "Haboro Contrast";
     text-decoration: none;
     padding: 20px 10px 10px 10px;
+    cursor: pointer;
+  }
+
+  .formnav a:hover {
+    color: black;
+    border-color: black;
+    transition: 0.7s;
   }
 
 
@@ -81,7 +93,7 @@ body, html {
     color: #8aa896;
     text-align: center; 
     line-height: 23px;
-    margin: 0;
+    margin: 10px;
     padding: 7px 10px 5px;
     border-width: thin;
     border-color: #8aa896;
@@ -120,6 +132,13 @@ body, html {
     border-style: solid;
     text-decoration: none;
     background-color: #eee7e3;
+    cursor: pointer;
+    }
+
+    .column-form button:hover {
+      color: black;
+      border-color: black;
+      transition: 0.7s;
     }
     
 
@@ -145,9 +164,11 @@ body, html {
       text-align: center;
       margin-bottom: 10px;
       text-decoration: none;
-      margin: 163px 0px -208px 0px;
+      margin: 167px 0px -208px 0px;
       text-transform: uppercase;
+      line-height: 21px;
      }
+
      .formalTextLive p {
       padding: 20px;
       position: relative;
@@ -158,6 +179,7 @@ body, html {
       text-decoration: none;
       margin: 215px 0px -215px 0px;
       text-transform: uppercase;
+      line-height: 25px;
      }
    
 
@@ -172,6 +194,32 @@ body, html {
       position: relative;
     }
 
+     .springTextLive h5 {
+      padding: 20px;
+      position: relative;
+      font-size: 18px;
+      font-family: "Hummingbird";
+      text-align: center;
+      margin-bottom: 10px;
+      text-decoration: none;
+      margin: 167px 0px -208px 0px;
+      text-transform: uppercase;
+      line-height: 21px;
+     }
+     
+     .springTextLive p {
+      padding: 20px;
+      position: relative;
+      font-size: 12px;
+      font-family: "Hummingbird";
+      text-align: center;
+      margin-bottom: 10px;
+      text-decoration: none;
+      margin: 215px 0px -215px 0px;
+      text-transform: uppercase;
+      line-height: 25px;
+     }
+
     .theme-artdeco {
       background-image: url(../images/WeddingByDesign_themes-03.jpg);
       background-position: center top, left top;
@@ -182,6 +230,32 @@ body, html {
       padding: 20px;
       position: relative;
     }
+
+    .artDecoTextLive h5 {
+      padding: 20px;
+      position: relative;
+      font-size: 18px;
+      font-family: "Semplicita Pro";
+      text-align: center;
+      margin-bottom: 10px;
+      text-decoration: none;
+      margin: 167px 0px -208px 0px;
+      text-transform: uppercase;
+      line-height: 21px;
+     }
+     
+     .artDecoTextLive p {
+      padding: 20px;
+      position: relative;
+      font-size: 12px;
+      font-family: "Semplicita Pro";
+      text-align: center;
+      margin-bottom: 10px;
+      text-decoration: none;
+      margin: 215px 0px -215px 0px;
+      text-transform: uppercase;
+      line-height: 25px;
+     }
 
 /* Create Section ends */
 
@@ -244,6 +318,14 @@ body, html {
   padding: 7px;
   border-style: solid;
 }
+
+.column a:hover {
+  color: black;
+  border-color: black;
+  transition: 0.7s;
+}
+
+
 
 /* Clearfix (clear floats) */
 .create::after {
