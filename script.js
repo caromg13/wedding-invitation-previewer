@@ -15,44 +15,21 @@ inviteTextLive("Location","LocationLive");
   
 
 
-//Theme font style change
-
-// function changeTextTheme(formalText, springText, artDecoText) {
- //   document.getElementById(formalText).onclick = function() {
- //   document.getElementById(springText).textStyle = this.value;
- //   document.getElementById(artDecoText).textStyle = this.value;
- //   };
-//}
-
-// changeTextTheme("formalTextLive", "springTextLive", "artDecoTextLive");
-
-////////////
-
-
-function changeTextTheme(param) {
-
-    let formalTextLive = document.getElementById(`formalTextLive`).value;
-
-    if (param == "formalTextLive") {
-        formalTextLive.style.font.color ='("formalTextLive")';
-
-    }
-
-     else if (param == "springTextLive") {
-        themeFormal.style.font.color ='("springTextLive")';
-    }
-
-    else if (param == "artDecoTextLive") {
-        themeFormal.style.font.color ='("artDecoTextLive")';
-     }
-
-}
 
 
 
+//Theme background and style changes
+
+
+
+const name1Live = document.getElementById("NameTitle1Live")
+const name2Live = document.getElementById("NameTitle2Live")
+const dateLive = document.getElementById("DateLive")
+const timeLive = document.getElementById("TimeLive")
+const locationLive = document.getElementById("LocationLive")
 
  
-//Theme background change
+
 
 
 function changeTheme(param) {
@@ -61,15 +38,36 @@ function changeTheme(param) {
 
     if (param == "formal") {
        themeFormal.style.backgroundImage = 'url("images/WeddingByDesign_themes-01.jpg")';
+       themeFormal.style.color = 'white';
 
+       name1Live.style.fontFamily = "Mrs Eaves";
+       name2Live.style.fontFamily = "Mrs Eaves";
+       dateLive.style.fontFamily = "Mrs Eaves";
+       timeLive.style.fontFamily = "Mrs Eaves";
+       locationLive.style.fontFamily = "Mrs Eaves";
     }
 
      else if (param == "spring") {
         themeFormal.style.backgroundImage = 'url("images/WeddingByDesign_themes-02.jpg")';
+        themeFormal.style.color = 'orange';
+
+        name1Live.style.fontFamily = "Hummingbird";
+        name2Live.style.fontFamily = "Hummingbird";
+        dateLive.style.fontFamily = "Hummingbird";
+        timeLive.style.fontFamily = "Hummingbird";
+        locationLive.style.fontFamily = "Hummingbird";
     }
 
     else if (param == "artDeco") {
         themeFormal.style.backgroundImage = 'url("images/WeddingByDesign_themes-03.jpg")';
+        themeFormal.style.color = '#009444';
+
+        name1Live.style.fontFamily = "Semplicita Pro"
+        name2Live.style.fontFamily = "Semplicita Pro"
+        dateLive.style.fontFamily = "Semplicita Pro"
+        timeLive.style.fontFamily = "Semplicita Pro"
+        locationLive.style.fontFamily = "Semplicita Pro"
+
      }
 
 }

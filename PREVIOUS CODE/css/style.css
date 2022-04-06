@@ -1,0 +1,379 @@
+body, html {
+    background-color: #eee7e3;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+
+  .centerlogo {
+    padding: 0 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .topnav {
+    text-align: center;
+    width: 100%;
+    font-family: "Gotham Light";
+    text-decoration: none;
+    padding: 20px;
+  }
+
+  .topnav a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 2px;
+  }
+
+  .topnav a:hover {
+    color: #8aa896;
+    transition: 0.7s;
+  }
+  
+/* Header Ends */
+
+
+/* Create Section - LHS Column Fields */
+
+
+  .column-form {
+    float: left;
+    width: 50%;
+    padding: 20px 5px 20px 50px;
+}
+
+.column-theme {
+  float: left;
+  width: 50%;
+  padding: 20px 5px 20px 5px;
+}
+
+
+/* Clearfix (clear floats) */
+.row-form::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+
+  .formnav {
+    text-align: center;
+    width: 100%;
+    font-family: "Haboro Contrast";
+    text-decoration: none;
+    padding: 20px 10px 10px 10px;
+    cursor: pointer;
+  }
+
+  .formnav a:hover {
+    color: black;
+    border-color: black;
+    transition: 0.7s;
+  }
+
+
+  .formnav a{
+    font-size: 16px;
+    font-family: "Gotham Light";
+    color: #8aa896;
+    text-align: center; 
+    line-height: 23px;
+    margin: 10px;
+    padding: 7px 10px 5px;
+    border-width: thin;
+    border-color: #8aa896;
+    border-style: solid;
+    text-decoration: none;
+    }
+
+
+
+    .column-form input {
+      font-size: 16px;
+      font-family: "Gotham Light";
+      background-color: #eee7e3;
+      color: black;
+      text-align: left;
+      margin-bottom: 20px;
+      text-decoration: none;
+      padding: 10px;
+      border: 1px solid black;
+      width: 300px;
+      outline: none;
+      height: 30px;
+      margin-top: 10px;
+    }
+
+    .column-form button {
+    font-size: 16px;
+    font-family: "Gotham Light";
+    color: #8aa896;
+    text-align: center; 
+    line-height: 23px;
+    margin: 0;
+    padding: 7px 10px 5px;
+    border-width: thin;
+    border-color: #8aa896;
+    border-style: solid;
+    text-decoration: none;
+    background-color: #eee7e3;
+    cursor: pointer;
+    }
+
+    .column-form button:hover {
+      color: black;
+      border-color: black;
+      transition: 0.7s;
+    }
+    
+
+/* Create Section - RHS Theme Backgrounds and live text */
+
+    .theme-formal {
+      background-image: url(../images/WeddingByDesign_themes-01.jpg);
+      background-position: center top, left top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 64vh;
+      padding: 20px;
+      position: relative;
+     }
+
+
+     .formalTextLive h5 {
+      padding: 20px;
+      position: relative;
+      font-size: 18px;
+      font-family: "Mrs Eaves";
+      text-align: center;
+      margin-bottom: 10px;
+      text-decoration: none;
+      margin: 167px 0px -208px 0px;
+      text-transform: uppercase;
+      line-height: 21px;
+     }
+
+     .formalTextLive p {
+      padding: 20px;
+      position: relative;
+      font-size: 12px;
+      font-family: "Mrs Eaves";
+      text-align: center;
+      margin-bottom: 10px;
+      text-decoration: none;
+      margin: 215px 0px -215px 0px;
+      text-transform: uppercase;
+      line-height: 25px;
+     }
+   
+
+    .theme-spring {
+      background-image: url(../images/WeddingByDesign_themes-02.jpg);
+      background-position: center top, left top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 64vh;
+      padding: 20px;
+      position: relative;
+    }
+
+     .springTextLive h5 {
+      padding: 20px;
+      position: relative;
+      font-size: 18px;
+      font-family: "Hummingbird";
+      text-align: center;
+      margin-bottom: 10px;
+      text-decoration: none;
+      margin: 167px 0px -208px 0px;
+      text-transform: uppercase;
+      line-height: 21px;
+     }
+     
+     .springTextLive p {
+      padding: 20px;
+      position: relative;
+      font-size: 12px;
+      font-family: "Hummingbird";
+      text-align: center;
+      margin-bottom: 10px;
+      text-decoration: none;
+      margin: 215px 0px -215px 0px;
+      text-transform: uppercase;
+      line-height: 25px;
+     }
+
+    .theme-artdeco {
+      background-image: url(../images/WeddingByDesign_themes-03.jpg);
+      background-position: center top, left top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 64vh;
+      padding: 20px;
+      position: relative;
+    }
+
+    .artDecoTextLive h5 {
+      padding: 20px;
+      position: relative;
+      font-size: 18px;
+      font-family: "Semplicita Pro";
+      text-align: center;
+      margin-bottom: 10px;
+      text-decoration: none;
+      margin: 167px 0px -208px 0px;
+      text-transform: uppercase;
+      line-height: 21px;
+     }
+     
+     .artDecoTextLive p {
+      padding: 20px;
+      position: relative;
+      font-size: 12px;
+      font-family: "Semplicita Pro";
+      text-align: center;
+      margin-bottom: 10px;
+      text-decoration: none;
+      margin: 215px 0px -215px 0px;
+      text-transform: uppercase;
+      line-height: 25px;
+     }
+
+/* Create Section ends */
+
+
+/* Text styles */
+
+  h1 {
+    font-size: 28px;
+    font-family: "Gotham Light";
+    color: #8aa896;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-family: "Gotham Book";
+    color: #8aa896;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  h4 {
+    font-size: 14px;
+    font-family: "Gotham Book";
+    color: #8aa896;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 14px;
+    font-family: "Gotham Light";
+    color: black;
+    text-align: center; 
+    line-height: 20px;
+    margin-top: 2px;
+}
+/* Text styles end */
+
+
+/* About section */
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px 5px 20px 5px;
+}
+
+.column a {
+  font-size: 16px;
+  font-family: "Gotham Light";
+  color: #8aa896;
+  text-align: left; 
+  line-height: 23px;
+  margin: 0;
+  text-decoration: none;
+  border-width: thin;
+  border-color: #8aa896;
+  padding: 7px;
+  border-style: solid;
+}
+
+.column a:hover {
+  color: black;
+  border-color: black;
+  transition: 0.7s;
+}
+
+
+
+/* Clearfix (clear floats) */
+.create::after {
+content: "";
+clear: both;
+display: table;
+}
+
+/* About section ends */
+
+
+/* Footer section */
+
+.column-footer {
+  float: left;
+  width: 33.33%;
+  padding: 10px; 
+  padding: 0 6px 40px 40px;
+}
+
+.column-footer p {
+  font-size: 12px;
+  font-family: "Gotham Light";
+  color: black;
+  text-align: left; 
+  line-height: 15px;
+  margin: 0;
+  }
+
+  .column-footer a{
+  font-size: 12px;
+  font-family: "Gotham Light";
+  color: black;
+  text-align: left; 
+  line-height: 23px;
+  margin: 0;
+  text-decoration: none;
+  }
+  
+  .border_right {
+    border-right: 1px solid #8aa896;
+    padding-right: 20px;
+  }
+
+  .border_top {
+    border-top: 1px solid black;
+    padding-top: 10px;
+  }
+
+/* Footer section ends */
+

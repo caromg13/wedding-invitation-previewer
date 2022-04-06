@@ -155,7 +155,6 @@ body, html {
       position: relative;
      }
 
-
      .formalTextLive h5 {
       padding: 20px;
       position: relative;
@@ -164,22 +163,30 @@ body, html {
       text-align: center;
       margin-bottom: 10px;
       text-decoration: none;
-      margin: 167px 0px -208px 0px;
-      text-transform: uppercase;
+      margin: 175px 0px -208px 0px;
       line-height: 21px;
      }
 
      .formalTextLive p {
       padding: 20px;
       position: relative;
-      font-size: 12px;
+      font-size: 18px;
       font-family: "Mrs Eaves";
       text-align: center;
       margin-bottom: 10px;
       text-decoration: none;
-      margin: 215px 0px -215px 0px;
-      text-transform: uppercase;
+      margin: 175px 0px -215px 0px;
       line-height: 25px;
+     }
+
+     #NameTitle1Live, #NameTitle2Live, #DateLive, #TimeLive {
+      font-family: "Mrs Eaves";
+      font-size: 18px;
+     }
+
+     #LocationLive {
+      font-family: "Mrs Eaves";
+      font-size: 18px;
      }
    
 
@@ -194,32 +201,6 @@ body, html {
       position: relative;
     }
 
-     .springTextLive h5 {
-      padding: 20px;
-      position: relative;
-      font-size: 18px;
-      font-family: "Hummingbird";
-      text-align: center;
-      margin-bottom: 10px;
-      text-decoration: none;
-      margin: 167px 0px -208px 0px;
-      text-transform: uppercase;
-      line-height: 21px;
-     }
-     
-     .springTextLive p {
-      padding: 20px;
-      position: relative;
-      font-size: 12px;
-      font-family: "Hummingbird";
-      text-align: center;
-      margin-bottom: 10px;
-      text-decoration: none;
-      margin: 215px 0px -215px 0px;
-      text-transform: uppercase;
-      line-height: 25px;
-     }
-
     .theme-artdeco {
       background-image: url(../images/WeddingByDesign_themes-03.jpg);
       background-position: center top, left top;
@@ -231,36 +212,7 @@ body, html {
       position: relative;
     }
 
-    .artDecoTextLive h5 {
-      padding: 20px;
-      position: relative;
-      font-size: 18px;
-      font-family: "Semplicita Pro";
-      text-align: center;
-      margin-bottom: 10px;
-      text-decoration: none;
-      margin: 167px 0px -208px 0px;
-      text-transform: uppercase;
-      line-height: 21px;
-     }
-     
-     .artDecoTextLive p {
-      padding: 20px;
-      position: relative;
-      font-size: 12px;
-      font-family: "Semplicita Pro";
-      text-align: center;
-      margin-bottom: 10px;
-      text-decoration: none;
-      margin: 215px 0px -215px 0px;
-      text-transform: uppercase;
-      line-height: 25px;
-     }
-
-/* Create Section ends */
-
-
-/* Text styles */
+    
 
   h1 {
     font-size: 28px;
